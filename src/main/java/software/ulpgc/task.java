@@ -34,4 +34,8 @@ public class task {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public int time_limit(){
+        return this.end - this.beginning;
+    }
 }
