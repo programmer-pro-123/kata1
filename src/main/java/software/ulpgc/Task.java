@@ -35,7 +35,7 @@ public class Task {
         this.description = description;
     }
 
-    public int time_limit(){
+    public int timeLimit(){
         return this.end - this.beginning;
     }
 }
