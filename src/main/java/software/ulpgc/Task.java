@@ -10,4 +10,16 @@ public class Task {
         this.end = end;
         this.description = description;
     }
+
+    public int getBeginning() {
+        return beginning;
+    }
+
+    public int getEnd() {
+        return end;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }
