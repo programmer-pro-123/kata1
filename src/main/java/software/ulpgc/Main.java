@@ -13,7 +13,5 @@ public class Main {
 
         System.out.println("Beginning: " + task.getBeginning() + " End: " + task.getEnd() +
                 "\nDescription: " + task.getDescription() + "\nTime Limit: " + task.timeLimit());
-
-
     }
 }
