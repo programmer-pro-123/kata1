@@ -5,6 +5,10 @@ public class Main {
         Task task = new Task(7, 13, "Hello World");
 
         System.out.println("Beginning: " + task.getBeginning() + " End: " + task.getEnd() +
-                "\nDescription: " task.getDescription() + "\nTime Limit: " + task.timeLimit());
+                "\nDescription: " + task.getDescription() + "\nTime Limit: " + task.timeLimit());
+
+        task.setBeginning(21);
+        task.setEnd(27);
+        task.setDescription("Hello Word again, this is an example");
     }
 }
