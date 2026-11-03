@@ -34,3 +34,15 @@ button "Clone". The repository selected was cloned into the directory specified.
 
 To test that the Project compiles outside the original repository, the cloned 
 Project was compiled doing the same explained before.
+
+Link to the explanatory video: https://youtu.be/mG8mdbXnlJk
+
+In this project it was implemented the class Task.java. This class is a simple task
+system. To create a new task object, it is necessary to specify the beginning date,
+which is the date when the task starts; the end date, which is the date when the
+task finishes, and a description, which is the task. The attributes "beginning",
+"end", and "description" are all privates, so it was necessary to implement some
+getters to get the attribute's values and some setters to modify that values. There
+is also implemented a method which does a simple math calc to obtain the task's time
+limit, it is only a simple substraction, "end" minus "beginning", then the method
+returns the result.
